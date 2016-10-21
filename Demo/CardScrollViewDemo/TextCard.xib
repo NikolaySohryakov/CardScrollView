@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6BV-9a-fHI" customClass="TextCard" customModule="CardScrollExample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="464" height="504"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbM-UP-ehC">
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="eIK-7a-ZyG"/>
+                        <constraint firstAttribute="height" constant="21" id="qYI-RO-C4j"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWl-SB-edc">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">Lorem ipsum dolor sit amet, latine intellegam et pri. Sit at error assueverit, sit eu mundi suscipit. Sed cu erant tantas. Reque dicunt id eam, ea eam epicurei pericula assentior, iudico altera in sed. Ad est idque habemus, et duo quidam electram.
+
+Est in alia eleifend intellegam. An his tation nullam scripserit, ne mel elitr cetero ponderum. Ad impetus complectitur mea, unum constituto eum ad. Aeterno malorum feugait an sed, ne debitis vulputate vel.
+
+Et affert aliquid usu, modo habeo reque ad sed. Te eligendi salutatus duo. Ea dicat paulo salutandi eos. No mel agam perpetua praesent. Vix ne dico malis eruditi, no cibo rebum iracundia vix.
+
+Persius probatus est at. Veritus petentium pri id. Pri ne partem nostro nostrud, sit falli vivendo ad. Tantas saperet nusquam vim at, elit oporteat mel eu. An eam causae adipiscing, cum id malis nusquam gloriatur, at enim eripuit praesent est. Sit ne ponderum lobortis.
+
+Repudiare dissentiunt an cum. His et delectus appareat partiendo, cum ex dolores ponderum, id vix decore postulant constituam. At dolorum iracundia has, mollis discere ne vix, no electram incorrupte suscipiantur pro. Mea eleifend intellegat ad, duo ea mutat aliquip invidunt, vel id wisi erat.
+
+Quando appellantur concludaturque est et. Pri id feugiat omittam definitionem, ad per errem qualisque sententiae. An per vidisse offendit instructior, eum solum incorrupte ex. Sea adhuc justo aeterno eu, aperiri ponderum tacimates eum eu.
+
+Qui eu assentior intellegebat, ea quo esse omnis, suas veniam propriae vix et. Doctus eloquentiam cu ius, mea exerci nominati elaboraret ei, ei alia qualisque eos. No ius omnis possit, cum at argumentum scripserit. Quas reformidans vix te, te vidit nonumy soluta vel, te tota consulatu eos. Sea ei meis soleat, docendi consequat no sed, ludus eligendi delicata nam id.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-7e-4NY">
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="143" id="9iq-JA-fhi"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="iG8-uV-dRm"/>
+                        <constraint firstAttribute="height" constant="30" id="nSX-Gz-qBt"/>
+                    </constraints>
+                    <state key="normal" title="Show me more!"/>
+                    <connections>
+                        <action selector="expandCell:" destination="6BV-9a-fHI" eventType="touchUpInside" id="qFJ-aa-bDq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1eu-7e-4NY" firstAttribute="centerX" secondItem="6BV-9a-fHI" secondAttribute="centerX" id="3dB-ez-TSg"/>
+                <constraint firstItem="gWl-SB-edc" firstAttribute="top" secondItem="HbM-UP-ehC" secondAttribute="bottom" constant="8" id="Isz-WX-33Q"/>
+                <constraint firstItem="1eu-7e-4NY" firstAttribute="top" secondItem="gWl-SB-edc" secondAttribute="bottom" constant="8" id="RlJ-OG-Slg"/>
+                <constraint firstItem="HbM-UP-ehC" firstAttribute="top" secondItem="6BV-9a-fHI" secondAttribute="top" constant="20" id="Xn8-Uv-lbV"/>
+                <constraint firstItem="HbM-UP-ehC" firstAttribute="leading" secondItem="6BV-9a-fHI" secondAttribute="leading" constant="20" id="cYy-Q9-g37"/>
+                <constraint firstAttribute="bottom" secondItem="1eu-7e-4NY" secondAttribute="bottom" constant="20" id="j8R-mp-s2d"/>
+                <constraint firstAttribute="trailing" secondItem="gWl-SB-edc" secondAttribute="trailing" constant="20" id="qVI-KT-eJJ"/>
+                <constraint firstAttribute="trailing" secondItem="HbM-UP-ehC" secondAttribute="trailing" constant="20" id="vwA-zi-yLo"/>
+                <constraint firstItem="gWl-SB-edc" firstAttribute="leading" secondItem="6BV-9a-fHI" secondAttribute="leading" constant="20" id="x0H-97-vTW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="reuseIdentifier" value="TextCard"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="actionButton" destination="1eu-7e-4NY" id="FGt-7x-QsS"/>
+                <outlet property="header" destination="HbM-UP-ehC" id="G9j-1D-ut7"/>
+                <outlet property="textField" destination="gWl-SB-edc" id="N2o-JM-Qul"/>
+            </connections>
+            <point key="canvasLocation" x="52" y="-119"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

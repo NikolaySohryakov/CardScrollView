@@ -1,0 +1,16 @@
+PODS:
+  - CardScrollView (1.0.0)
+
+DEPENDENCIES:
+  - CardScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  CardScrollView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CardScrollView: e6549e0199b771b993c1a6492efbe4e97b8e4d39
+
+PODFILE CHECKSUM: 8392180481470d5b886207db831f6a48dd627bc0
+
+COCOAPODS: 1.0.1
