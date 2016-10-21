@@ -1,3 +1,4 @@
+[![CocoaPods](https://cocoapod-badges.herokuapp.com/v/CardScrollView/1.0.0/badge.png)](http://www.cocoapods.org/?q=cardscrollview)
 ![Swift 3](https://img.shields.io/badge/swift-3-orange.svg)
 
 A custom UIScrollView that enables vertical paging without limiting the page height.
