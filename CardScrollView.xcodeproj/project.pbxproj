@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29EA441E1DBA01EA0013D5F8 /* CardScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EA441C1DBA01EA0013D5F8 /* CardScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29EA44271DBA02570013D5F8 /* CardScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA44251DBA02570013D5F8 /* CardScrollView.swift */; };
 		29EA44281DBA02570013D5F8 /* CardScrollViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA44261DBA02570013D5F8 /* CardScrollViewCard.swift */; };
+		29EA44531DBA43FF0013D5F8 /* CardScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EA44511DBA43FF0013D5F8 /* CardScrollView.h */; };
+		29EA44541DBA43FF0013D5F8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29EA44521DBA43FF0013D5F8 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29EA44191DBA01EA0013D5F8 /* CardScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29EA441C1DBA01EA0013D5F8 /* CardScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardScrollView.h; sourceTree = "<group>"; };
-		29EA441D1DBA01EA0013D5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EA44251DBA02570013D5F8 /* CardScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardScrollView.swift; sourceTree = "<group>"; };
 		29EA44261DBA02570013D5F8 /* CardScrollViewCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardScrollViewCard.swift; sourceTree = "<group>"; };
+		29EA44511DBA43FF0013D5F8 /* CardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardScrollView.h; sourceTree = "<group>"; };
+		29EA44521DBA43FF0013D5F8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +52,8 @@
 		29EA441B1DBA01EA0013D5F8 /* CardScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				29EA441C1DBA01EA0013D5F8 /* CardScrollView.h */,
-				29EA441D1DBA01EA0013D5F8 /* Info.plist */,
+				29EA44511DBA43FF0013D5F8 /* CardScrollView.h */,
+				29EA44521DBA43FF0013D5F8 /* Info.plist */,
 			);
 			path = CardScrollView;
 			sourceTree = "<group>";
@@ -73,7 +74,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29EA441E1DBA01EA0013D5F8 /* CardScrollView.h in Headers */,
+				29EA44531DBA43FF0013D5F8 /* CardScrollView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EA44541DBA43FF0013D5F8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
