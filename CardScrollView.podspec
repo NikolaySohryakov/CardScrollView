@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "A custom UIScrollView that enables vertical paging without limiting the page height."
   s.description  = <<-DESC
-                    A custom UIScrollView that enables vertical paging without limiting the page height.
+                    A custom UIScrollView that enables vertical paging without limiting the page height and wors the same way as UITableView.
                    DESC
   s.homepage     = "https://github.com/NikolaySohryakov/CardScrollView"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
