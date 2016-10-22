@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Nikolay Sohryakov" => "nikolay.sohryakov@gmail.com" }
   s.source       = { :git => "https://github.com/NikolaySohryakov/CardScrollView.git", :tag => s.version }
   s.platform     = :ios, '9.0'
-  s.source_files = 'CardScrollView/Source', '*.{swift}'
+  s.source_files = 'Source', '*.{swift}'
   s.requires_arc = true
   s.social_media_url = 'https://twitter.com/nsohryakov'
 end

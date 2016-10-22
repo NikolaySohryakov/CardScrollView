@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		29EA44271DBA02570013D5F8 /* CardScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA44251DBA02570013D5F8 /* CardScrollView.swift */; };
 		29EA44281DBA02570013D5F8 /* CardScrollViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EA44261DBA02570013D5F8 /* CardScrollViewCard.swift */; };
-		29EA44531DBA43FF0013D5F8 /* CardScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EA44511DBA43FF0013D5F8 /* CardScrollView.h */; };
+		29EA44531DBA43FF0013D5F8 /* CardScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EA44511DBA43FF0013D5F8 /* CardScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29EA44541DBA43FF0013D5F8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29EA44521DBA43FF0013D5F8 /* Info.plist */; };
 /* End PBXBuildFile section */
 
